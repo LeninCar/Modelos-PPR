@@ -1,4 +1,4 @@
-ACTORES = {A1, A2, A3, A4, A5, A6, A7, A8};
+ACTORES = {Actor1, Actor2, Actor3, Actor4, Actor5, Actor6, Actor7, Actor8};
 
 Escenas = [| 1,0,1,0,1,0,0,0,10
            | 0,1,0,1,0,1,0,0,11
@@ -15,22 +15,22 @@ Duracion = [3, 2, 3, 1, 2, 4, 2, 3];
 
 % Tiempo máximo de grabación de cada actor (en minutos; 0 = ilimitado)
 Disponibilidad = [|
-   A1,  8    % A1 hasta 8 min
-|  A2,  7    % A2 sin límite
-|  A3,  15    % A3 hasta 7 min
-|  A4,  17    % A4 hasta 5 min
-|  A5, 13    % A5 hasta 10 min
-|  A6,  9    % A6 hasta 6 min
-|  A7,  19    % A7 hasta 9 min
-|  A8,  14    % A8 sin límite
+   Actor1,  8    % Actor1 hasta 8 min
+|  Actor2,  7    % Actor2 sin límite
+|  Actor3,  15    % Actor3 hasta 7 min
+|  Actor4,  17    % Actor4 hasta 5 min
+|  Actor5, 13    % A5 hasta 10 min
+|  Actor6,  9    % A6 hasta 6 min
+|  Actor7,  19    % A7 hasta 9 min
+|  Actor8,  14    % A8 sin límite
 |];
 
 % Pares de actores que deben evitarse en grabación
 Evitar = [|
-   A1, A5   % no grabar juntos A1 y A5
-|  A2, A6   % no grabar juntos A2 y A6
-|  A3, A4   % no grabar juntos A3 y A4
-|  A7, A8   % no grabar juntos A7 y A8
+   Actor1, Actor5   % no grabar juntos A1 y A5
+|  Actor2, Actor6   % no grabar juntos A2 y A6
+|  Actor3, Actor4   % no grabar juntos A3 y A4
+|  Actor7, Actor8   % no grabar juntos A7 y A8
 |];
 
 

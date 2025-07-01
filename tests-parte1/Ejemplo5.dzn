@@ -1,4 +1,4 @@
-ACTORES = {A1, A2, A3, A4, A5, A6};
+ACTORES = {Actor1, Actor2, Actor3, Actor4, Actor5, Actor6};
 
 Escenas = [| 1,0,0,1,0,0,12
            | 0,1,1,0,0,0,15
