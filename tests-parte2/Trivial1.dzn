@@ -1,0 +1,38 @@
+ACTORES = {Actor1, Actor2, Actor3} ;
+
+Escenas = [| 0,1,0,0,0,0,10
+           | 0,1,1,1,0,1,20
+           | 0,0,0,0,1,1,15|]; 
+           
+Duracion = [2,1,1,1,3,4];
+
+
+% --- PARTE 2 (extensiones) ---
+
+% Tiempo máximo de grabación de cada actor (en minutos; 0 = ilimitado)
+Disponibilidad = [|
+   Actor1,  3    % Actor1 hasta 6 min
+|  Actor2,  7    % Actor2 sin límite
+|  Actor3,  10    % Actor3 hasta 8 min
+|];
+
+% Pares de actores que deben evitarse en grabación
+Evitar = [|
+   Actor1, Actor2  % no grabar juntos Actor1 y Actor2
+|  Actor2, Actor3  % no grabar juntos Actor2 y Actor3
+|];
+
+
+
+
+
+
+
+
+
+%Solución:
+%Orden de las Escenas: [1, 4, 3, 2, 6, 5]
+%Costo: 255
+%----------
+%==========
+%Finished in 137msec

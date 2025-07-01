@@ -1,0 +1,20 @@
+ACTORES = {Actor1, Actor2, Actor3, Actor4};
+
+Escenas = [| 1, 0, 1, 0, 0, 10
+           | 0, 1, 1, 1, 0, 15
+           | 1, 1, 0, 0, 1, 20
+           | 0, 0, 1, 1, 1, 10 |];
+
+Duracion = [3, 2, 4, 1, 2];
+% --- PARTE 2 (extensiones) ---
+
+% Tiempo máximo de grabación de cada actor (en minutos; 0 = ilimitado)
+Disponibilidad = [|
+   Actor1,  8   % Actor1 solo puede grabar hasta  8 minutos
+|  Actor2,  10   % Actor2 sin límite
+|  Actor3, 0   % Actor3 hasta 10 minutos
+|  Actor4,  10   % Actor4 hasta  5 minutos
+|];
+
+% Pares de actores que deben evitarse en grabación
+Evitar = [|Actor2, Actor1|];

@@ -1,0 +1,23 @@
+ACTORES = {A1, A2, A3};
+
+Escenas = [| 1, 1, 1, 1, 12
+           | 0, 1, 1, 0, 8
+           | 1, 0, 1, 1, 6 |];
+
+Duracion = [2, 3, 2, 7];
+
+% --- PARTE 2 (extensiones) ---
+
+% Tiempo máximo de grabación de cada actor (en minutos; 0 = ilimitado)
+Disponibilidad = [|
+   A1,  23   % A1 hasta 6 min
+|  A2,  0   % A2 sin límite
+|  A3,  0  % A3 hasta 5 min
+|];
+
+% Pares de actores que deben evitarse en grabación
+Evitar = [|
+   A1, A3  % no grabar juntos A1 y A3
+|  A2, A3
+|  A1, A2  % no grabar juntos A2 y A3
+|];

@@ -1,0 +1,20 @@
+ACTORES = {Actor1, Actor2, Actor3, Actor4};
+
+Escenas = 
+[| 1, 1, 0, 0, 0, 0, 10  % Actor1: participa en escenas 1 y 2, costo 10
+ | 0, 1, 1, 1, 0, 1, 20  % Actor2: escenas 2, 3, 4, 6, costo 20
+ | 0, 0, 0, 0, 1, 1, 15  % Actor3: escenas 5 y 6, costo 15
+ | 1, 1, 0, 0, 1, 1, 13  % Actor4: escenas 1, 2, 5, 6, costo 13
+|];
+
+Duracion = [2, 1, 1, 1, 3, 4];
+
+
+         
+
+%Orden de las Escenas: [4, 3, 6, 2, 1, 5]
+%Costo: 450
+%Tiempo Compartido: 6
+%----------
+%==========
+%Finished in 140msec
