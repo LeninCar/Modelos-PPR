@@ -33,7 +33,7 @@ Pasos necesarios para el proyecto en la interfaz.
 
 ### 1. Ejecución desde la interfaz web (Proyecto desplegado)
 
-1. Acceder al enlace web proporcionado - 
+1. Acceder al enlace web proporcionado - https://proyecto-ppr-front-definitivo.vercel.app/
 2. Allí ya estarán cargados los modelos (`.mzn`).
 3. Selecciona la instancia que quieras ejecutar (parte 1 o parte 2).
 4. Sube o selecciona el archivo `.dzn` correspondiente desde `tests-parte1/` o `tests-parte2/` u otros, pero se correspondientes a la parte del modelo a evaluar ya uqe las entradas para cada uno difieren.
