@@ -39,3 +39,7 @@ Pasos necesarios para el proyecto en la interfaz.
 4. Sube o selecciona el archivo `.dzn` correspondiente desde `tests-parte1/` o `tests-parte2/` u otros, pero se correspondientes a la parte del modelo a evaluar ya uqe las entradas para cada uno difieren.
 5. Hacer clic en **Ejecutar** y espera los resultados.
 6. Opcional: descarga el archivo de salida (`.txt`) con la solución.
+
+
+https://github.com/LeninCar/Modelos-PPR
+https://github.com/BrianGomezM/minizinc_novelas
